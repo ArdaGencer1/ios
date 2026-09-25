@@ -3,6 +3,6 @@ node_modules/
 *.ipa
 *.dSYM.zip
 xcuserdata/
-build/
+/build/
 linux-check/.build/
 linux-check/Sources/

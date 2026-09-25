@@ -1,0 +1,31 @@
+# Native iOS build. These are the steps eas/build runs for an iOS build with
+# credentials, minus eas/prebuild and pod install: there is no React Native
+# code and no CocoaPods here, only the Xcode project in ios/.
+build:
+  name: Selda Gencer Beauty - iOS
+  steps:
+    - eas/checkout
+
+    - eas/install_node_modules
+
+    - eas/resolve_build_config
+
+    - eas/resolve_apple_team_id_from_credentials:
+        id: resolve_apple_team_id_from_credentials
+
+    # Installs the distribution certificate and the provisioning profile, and
+    # points the Xcode target's signing at them.
+    - eas/configure_ios_credentials
+
+    # Applies the remote version (eas.json appVersionSource: remote) to
+    # MARKETING_VERSION / CURRENT_PROJECT_VERSION, which Info.plist references.
+    - eas/configure_ios_version
+
+    - eas/generate_gymfile_from_template:
+        inputs:
+          credentials: ${ eas.job.secrets.buildCredentials }
+          scheme: BeautyRadio
+
+    - eas/run_fastlane
+
+    - eas/find_and_upload_build_artifacts
