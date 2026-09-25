@@ -1,12 +1,11 @@
 {
   "cli": {
     "version": ">= 24.0.0",
-    "appVersionSource": "remote"
+    "appVersionSource": "local"
   },
   "build": {
     "production": {
       "distribution": "store",
-      "autoIncrement": true,
       "ios": {
         "config": "ios-store.yml",
         "resourceClass": "m-medium"
@@ -14,7 +13,6 @@
     },
     "device": {
       "distribution": "internal",
-      "autoIncrement": true,
       "ios": {
         "config": "ios-store.yml",
         "resourceClass": "m-medium"
