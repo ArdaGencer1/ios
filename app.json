@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Selda Gencer Beauty",
+    "slug": "beauty-native-ios",
+    "platforms": [
+      "ios"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.rootbeauty.app"
+    },
+    "owner": "ardagncr",
+    "extra": {
+      "eas": {
+        "projectId": "ebdd583b-3982-418a-8da2-b864c9a6d11f"
+      }
+    }
+  }
+}

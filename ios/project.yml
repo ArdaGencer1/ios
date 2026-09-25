@@ -1,0 +1,78 @@
+name: BeautyRadio
+options:
+  bundleIdPrefix: com.rootbeauty
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    # Swift 5 language mode. The sources also compile clean under Swift 6
+    # strict concurrency, but the store build does not need to opt in.
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "2.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: "39GA2BR55U"
+targets:
+  BeautyRadio:
+    type: application
+    platform: iOS
+    sources:
+      - path: BeautyRadio
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rootbeauty.app
+        PRODUCT_NAME: BeautyRadio
+        INFOPLIST_FILE: BeautyRadio/Info.plist
+        CODE_SIGN_ENTITLEMENTS: BeautyRadio/BeautyRadio.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: ""
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: NO
+        ENABLE_BITCODE: NO
+        SWIFT_EMIT_LOC_STRINGS: NO
+    info:
+      path: BeautyRadio/Info.plist
+      properties:
+        CFBundleDisplayName: Selda Gençer Beauty
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        ITSAppUsesNonExemptEncryption: false
+        # Both modes are required: "audio" keeps the capture and playback graph
+        # alive, "push-to-talk" lets the system wake the app for a remote
+        # speaker and show the lock screen talk button.
+        UIBackgroundModes:
+          - audio
+          - push-to-talk
+        NSMicrophoneUsageDescription: Telsizle konuşabilmek için mikrofon gerekir.
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+  BeautyRadioTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: BeautyRadioTests
+    dependencies:
+      - target: BeautyRadio
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rootbeauty.app.tests
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  BeautyRadio:
+    build:
+      targets:
+        BeautyRadio: all
+        BeautyRadioTests: [test]
+    test:
+      targets:
+        - BeautyRadioTests
+    run:
+      config: Debug
+    archive:
+      config: Release

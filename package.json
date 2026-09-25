@@ -1,0 +1,12 @@
+{
+  "name": "beauty-radio-app",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Selda Gencer Beauty - native iOS radio. EAS builds the Xcode project in ios/ directly; there is no React Native code here.",
+  "dependencies": {
+    "expo": "^57.0.25"
+  },
+  "devDependencies": {
+    "eas-cli": "^24.8.0"
+  }
+}

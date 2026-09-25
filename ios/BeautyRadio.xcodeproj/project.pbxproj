@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F488CE43231834513E5ABC1 /* RadioCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4263D5E4368D87E0EDAAE /* RadioCredentials.swift */; };
+		1775329FE07951042D066A39 /* RadioEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A11ED7C95CBB433470F2356 /* RadioEnvelope.swift */; };
+		2D94243A45593A88D7A13868 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40852EAAD30E6989EB50761D /* RadioView.swift */; };
+		3AF1D393A799E6E623DE77BA /* RadioPushToTalkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2BA4DAA32EC9713A0A7DBC /* RadioPushToTalkManager.swift */; };
+		4BC03C6D4324BEADC2D95801 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 56CC70725346C5DD2B6B7CB9 /* PrivacyInfo.xcprivacy */; };
+		7BEC6DE3F63E191CB1F618B0 /* BeautyRadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE525B05FC9A8B46467045D0 /* BeautyRadioApp.swift */; };
+		9B2AA2998730E70683C0497D /* RadioClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E623854E0FECBC69F2CDAF45 /* RadioClient.swift */; };
+		B51D3AA03B9861C53B007AFE /* RadioAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB80077B44477D2C5CB17E9 /* RadioAudioEngine.swift */; };
+		D5CE19F8A62288AC6AF5FF94 /* RadioEnvelopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235CCB637DD2E6CBF7228C4 /* RadioEnvelopeTests.swift */; };
+		E1535169CF4B7854C3349C14 /* RadioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAF3DDF38E0001B90427FBF /* RadioSession.swift */; };
+		E197153D943A2AC78F154EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25E02D36360AA77816D7F7C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD38E153FBC6A81DADBBD470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60ACFFB8361916CEB4E24AA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964B4E98B32254B835CC5A2C;
+			remoteInfo = BeautyRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B2BA4DAA32EC9713A0A7DBC /* RadioPushToTalkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPushToTalkManager.swift; sourceTree = "<group>"; };
+		392A96D1A367D3D47A9308D3 /* BeautyRadioTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BeautyRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40852EAAD30E6989EB50761D /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		5235CCB637DD2E6CBF7228C4 /* RadioEnvelopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioEnvelopeTests.swift; sourceTree = "<group>"; };
+		56CC70725346C5DD2B6B7CB9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		5DAE2B08F18269201A65A17D /* BeautyRadio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeautyRadio.entitlements; sourceTree = "<group>"; };
+		6A11ED7C95CBB433470F2356 /* RadioEnvelope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioEnvelope.swift; sourceTree = "<group>"; };
+		BE525B05FC9A8B46467045D0 /* BeautyRadioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyRadioApp.swift; sourceTree = "<group>"; };
+		C5BD133A62FB817E4EA6D95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DF2062D09645F31533F24B88 /* BeautyRadio.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BeautyRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25E02D36360AA77816D7F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E623854E0FECBC69F2CDAF45 /* RadioClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioClient.swift; sourceTree = "<group>"; };
+		EDAF3DDF38E0001B90427FBF /* RadioSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioSession.swift; sourceTree = "<group>"; };
+		FCB80077B44477D2C5CB17E9 /* RadioAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioAudioEngine.swift; sourceTree = "<group>"; };
+		FFE4263D5E4368D87E0EDAAE /* RadioCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCredentials.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1B0E5B5FCCC27A3801F3C26D /* BeautyRadio */ = {
+			isa = PBXGroup;
+			children = (
+				E25E02D36360AA77816D7F7C /* Assets.xcassets */,
+				5DAE2B08F18269201A65A17D /* BeautyRadio.entitlements */,
+				C5BD133A62FB817E4EA6D95F /* Info.plist */,
+				56CC70725346C5DD2B6B7CB9 /* PrivacyInfo.xcprivacy */,
+				93F4A6A15115B9D7C849597A /* Sources */,
+			);
+			path = BeautyRadio;
+			sourceTree = "<group>";
+		};
+		6A390DEA5DB77537D2A12908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF2062D09645F31533F24B88 /* BeautyRadio.app */,
+				392A96D1A367D3D47A9308D3 /* BeautyRadioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABB48D2AAB40F408ADDB4D4 = {
+			isa = PBXGroup;
+			children = (
+				1B0E5B5FCCC27A3801F3C26D /* BeautyRadio */,
+				9B9AF8D3D442390A41A42801 /* BeautyRadioTests */,
+				6A390DEA5DB77537D2A12908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93F4A6A15115B9D7C849597A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BE525B05FC9A8B46467045D0 /* BeautyRadioApp.swift */,
+				FCB80077B44477D2C5CB17E9 /* RadioAudioEngine.swift */,
+				E623854E0FECBC69F2CDAF45 /* RadioClient.swift */,
+				FFE4263D5E4368D87E0EDAAE /* RadioCredentials.swift */,
+				6A11ED7C95CBB433470F2356 /* RadioEnvelope.swift */,
+				1B2BA4DAA32EC9713A0A7DBC /* RadioPushToTalkManager.swift */,
+				EDAF3DDF38E0001B90427FBF /* RadioSession.swift */,
+				40852EAAD30E6989EB50761D /* RadioView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9B9AF8D3D442390A41A42801 /* BeautyRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				5235CCB637DD2E6CBF7228C4 /* RadioEnvelopeTests.swift */,
+			);
+			path = BeautyRadioTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B0DE6920F28C61E2005184E /* BeautyRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E8916DCD523CF0D8D3313A /* Build configuration list for PBXNativeTarget "BeautyRadioTests" */;
+			buildPhases = (
+				6B627B39B944736E11F73B3F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D103A7DAC7C0A1092CB843E0 /* PBXTargetDependency */,
+			);
+			name = BeautyRadioTests;
+			packageProductDependencies = (
+			);
+			productName = BeautyRadioTests;
+			productReference = 392A96D1A367D3D47A9308D3 /* BeautyRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		964B4E98B32254B835CC5A2C /* BeautyRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC951C7012EFFCE09F4A9FB /* Build configuration list for PBXNativeTarget "BeautyRadio" */;
+			buildPhases = (
+				B5BF0C7017FEDF838BB0D827 /* Sources */,
+				DFF34962E9755E445455D88A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautyRadio;
+			packageProductDependencies = (
+			);
+			productName = BeautyRadio;
+			productReference = DF2062D09645F31533F24B88 /* BeautyRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60ACFFB8361916CEB4E24AA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4B0DE6920F28C61E2005184E = {
+						DevelopmentTeam = 39GA2BR55U;
+					};
+					964B4E98B32254B835CC5A2C = {
+						DevelopmentTeam = 39GA2BR55U;
+					};
+				};
+			};
+			buildConfigurationList = 3B7877E2C88B306A37DBB7A7 /* Build configuration list for PBXProject "BeautyRadio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6ABB48D2AAB40F408ADDB4D4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6A390DEA5DB77537D2A12908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				964B4E98B32254B835CC5A2C /* BeautyRadio */,
+				4B0DE6920F28C61E2005184E /* BeautyRadioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFF34962E9755E445455D88A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E197153D943A2AC78F154EE7 /* Assets.xcassets in Resources */,
+				4BC03C6D4324BEADC2D95801 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B627B39B944736E11F73B3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CE19F8A62288AC6AF5FF94 /* RadioEnvelopeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BF0C7017FEDF838BB0D827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEC6DE3F63E191CB1F618B0 /* BeautyRadioApp.swift in Sources */,
+				B51D3AA03B9861C53B007AFE /* RadioAudioEngine.swift in Sources */,
+				9B2AA2998730E70683C0497D /* RadioClient.swift in Sources */,
+				0F488CE43231834513E5ABC1 /* RadioCredentials.swift in Sources */,
+				1775329FE07951042D066A39 /* RadioEnvelope.swift in Sources */,
+				3AF1D393A799E6E623DE77BA /* RadioPushToTalkManager.swift in Sources */,
+				E1535169CF4B7854C3349C14 /* RadioSession.swift in Sources */,
+				2D94243A45593A88D7A13868 /* RadioView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D103A7DAC7C0A1092CB843E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964B4E98B32254B835CC5A2C /* BeautyRadio */;
+			targetProxy = BD38E153FBC6A81DADBBD470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06FDABA6FB08482A5D3D394A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = BeautyRadio/BeautyRadio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BeautyRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rootbeauty.app;
+				PRODUCT_NAME = BeautyRadio;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08850783382334A7F7C794E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rootbeauty.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautyRadio.app/BeautyRadio";
+			};
+			name = Debug;
+		};
+		887498CF54E2DC02FC7B3C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 39GA2BR55U;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 2.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A9E3140A1672714E125D6941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = BeautyRadio/BeautyRadio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BeautyRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rootbeauty.app;
+				PRODUCT_NAME = BeautyRadio;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2C1066D0A75ADEEEB81CE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 39GA2BR55U;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 2.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D14F065E795397399C9A00BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rootbeauty.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautyRadio.app/BeautyRadio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E8916DCD523CF0D8D3313A /* Build configuration list for PBXNativeTarget "BeautyRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08850783382334A7F7C794E7 /* Debug */,
+				D14F065E795397399C9A00BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3B7877E2C88B306A37DBB7A7 /* Build configuration list for PBXProject "BeautyRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887498CF54E2DC02FC7B3C9C /* Debug */,
+				C2C1066D0A75ADEEEB81CE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5BC951C7012EFFCE09F4A9FB /* Build configuration list for PBXNativeTarget "BeautyRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FDABA6FB08482A5D3D394A /* Debug */,
+				A9E3140A1672714E125D6941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60ACFFB8361916CEB4E24AA5 /* Project object */;
+}

@@ -1,0 +1,8 @@
+node_modules/
+.expo/
+*.ipa
+*.dSYM.zip
+xcuserdata/
+build/
+linux-check/.build/
+linux-check/Sources/

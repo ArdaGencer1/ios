@@ -1,0 +1,31 @@
+{
+  "cli": {
+    "version": ">= 24.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "production": {
+      "distribution": "store",
+      "autoIncrement": true,
+      "ios": {
+        "config": "ios-store.yml",
+        "resourceClass": "m-medium"
+      }
+    },
+    "device": {
+      "distribution": "internal",
+      "autoIncrement": true,
+      "ios": {
+        "config": "ios-store.yml",
+        "resourceClass": "m-medium"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleTeamId": "39GA2BR55U"
+      }
+    }
+  }
+}
